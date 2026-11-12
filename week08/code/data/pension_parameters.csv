@@ -1,0 +1,8 @@
+parameter,value,unit,period,source,url
+state_pension_contributory_max_weekly,289.3,EUR per week,2025,"Social Welfare Act 2024, Schedule 1, Part 1, item 3(a)(i)",https://www.irishstatutebook.ie/2024/en/act/pub/0036/sched1.html
+state_pension_contributory_max_weekly,299.3,EUR per week,2026,"Social Welfare and Automatic Enrolment Retirement Savings System (Amendment) Act 2025, Schedule 1, Part 1, item 3(a)(i)",https://www.irishstatutebook.ie/eli/2025/act/19/schedule/1/enacted/en/html
+pension_age,66,years,2026,"Social Welfare Consolidation Act 2005, s. 2 (revised)",https://revisedacts.lawreform.ie/eli/2005/act/26/section/2/revised/en/html
+average_weekly_earnings,1011.32,EUR per week,2025,"CSO EHQ53, mean of 2025Q1-2025Q4",https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/EHQ53/JSON-stat/2.0/en
+average_weekly_earnings,1055.74,EUR per week,2026 (2026Q1-2026Q2),"CSO EHQ53, mean of 2026Q1, 2026Q2",https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/EHQ53/JSON-stat/2.0/en
+replacement_rate,0.286,ratio,2025,"pension rate / average weekly earnings, same year",
+replacement_rate,0.283,ratio,2026 (2026Q1-2026Q2),pension rate / average weekly earnings (part year),

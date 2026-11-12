@@ -13,6 +13,7 @@ One folder per week. Before each lecture the blank notebook is posted; after it,
 | 5 | [lecture05_theory_howard_blank.ipynb](week05/lecture05_theory_howard_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week05/lecture05_theory_howard.ipynb) (complete) | [lecture05_theory_howard.ipynb](week05/lecture05_theory_howard.ipynb), [code](week05/code) |
 | 6 | [lecture06_continuous_blank.ipynb](week06/lecture06_continuous_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week06/lecture06_continuous.ipynb) (complete) | [lecture06_continuous.ipynb](week06/lecture06_continuous.ipynb), [code](week06/code) |
 | 7 | [lecture07_closing_blank.ipynb](week07/lecture07_closing_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week07/lecture07_closing.ipynb) (complete) | [lecture07_closing.ipynb](week07/lecture07_closing.ipynb), [code](week07/code) |
+| 8 | [lecture08_calibration_blank.ipynb](week08/lecture08_calibration_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week08/lecture08_calibration.ipynb) (complete) | [lecture08_calibration.ipynb](week08/lecture08_calibration.ipynb), [code and data](week08/code) |
 
 ## Tutorials
 
@@ -23,6 +24,7 @@ One folder per week. Before each lecture the blank notebook is posted; after it,
 ## Reference
 
 - **Python cheat sheet: an attempt to demystify our code.** [python_cheatsheet.ipynb](reference/python_cheatsheet.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/reference/python_cheatsheet.ipynb). The symbols and lines in our code that look like magic, taken apart. The PDF is on Blackboard.
+- **pandas cheat sheet: reading and using data.** [pandas_cheatsheet.ipynb](reference/pandas_cheatsheet.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/reference/pandas_cheatsheet.ipynb). One page: what each piece of pandas does, and the traps. The PDF is on Blackboard.
 
 Slides, method cards, deadlines and the module's rules on generative AI are on Blackboard. Your own project code lives in your private repository, not here.
 
@@ -44,3 +46,13 @@ cp ~/code/ECU44291-lectures/week02/lecture02_rootfinding_olg_blank.ipynb ~/code/
 ```
 
 Never edit files inside this folder; `git pull` will refuse if you have.
+
+### The calibration data (Week 8)
+
+The Irish data for M3 are in [week08/code/data](week08/code/data), with a README on every source. Copy them into your project's `data/` folder once:
+
+```
+cp ~/code/ECU44291-lectures/week08/code/data/* ~/code/ECU44291-project/data/
+```
+
+The Week 8 notebook finds the data by itself: it reads `code/data/` when it sits next to it, and otherwise (in your project, or on Colab) reads the same files from this repository.
