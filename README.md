@@ -14,6 +14,7 @@ One folder per week. Before each lecture the blank notebook is posted; after it,
 | 6 | [lecture06_continuous_blank.ipynb](week06/lecture06_continuous_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week06/lecture06_continuous.ipynb) (complete) | [lecture06_continuous.ipynb](week06/lecture06_continuous.ipynb), [code](week06/code) |
 | 7 | [lecture07_closing_blank.ipynb](week07/lecture07_closing_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week07/lecture07_closing.ipynb) (complete) | [lecture07_closing.ipynb](week07/lecture07_closing.ipynb), [code](week07/code) |
 | 8 | [lecture08_calibration_blank.ipynb](week08/lecture08_calibration_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week08/lecture08_calibration.ipynb) (complete) | [lecture08_calibration.ipynb](week08/lecture08_calibration.ipynb), [code and data](week08/code) |
+| 9 | [lecture09_policy_blank.ipynb](week09/lecture09_policy_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week09/lecture09_policy.ipynb) (complete) | [lecture09_policy.ipynb](week09/lecture09_policy.ipynb) |
 
 ## Tutorials
 
